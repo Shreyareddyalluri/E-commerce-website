@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <section id="header">
+    <a href="#"><img src="logo2.jpg" width="80" height:"30" class="logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html" >Home</a></li>
+        <li><a  href="shop.html" class="active">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li> 
+        <li><a href="cart.html"><img src="cart.jpg"  width="40" height:"30" class="shopping-bag"></a></li>
+      </ul>
+    </div>
+
+      
+  </section>    
+
+<section id="prodetails" class="section-p1">
+   <div class="single-pro-image ">
+    <img src="menshirt1.jpg" width="100%"id="MainImg" alt="">
+    <div class="small-img-group">
+        <div class="small-img-col">
+            <img src="menshirt1.jpg" width="100%" class="small-img"alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="menshirt2.jpg" width="100%" class="small-img"alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="menshirt3.jpg" width="100%" class="small-img"alt="">
+        </div>
+        <div class="small-img-col">
+            <img src="menshirt4.jpg" width="100%" class="small-img"alt="">
+        </div>
+    </div>
+   </div>
+   <div class="single-pro-details">
+    <h6>Home/Shirt</h6>
+    <h4>Mens Shirt</h4>
+    <h2>$65.00</h2>
+    <select>
+        <option>Select Size<option>
+            <option>XL</option>
+            <option>XXL</option>
+            <option>Small</option>
+            <option>Larger</option>
+    </select>
+    <br><br>
+    <input type="number" value="1">
+    <br><br>
+    <button class="normal">Add to cart</button>
+    <h4>Product Details</h4>
+    <span>Care Instructions: Machine Wash<br>
+        Material: 100% Cotton<br>
+        Long sleeve with spread collar<br>
+        Lion embroidery on the chest with double pocket and metal button closure<br>
+        Suitable For: casual, business work, date, party, perfect gift for father, friends and boyfriend<br>
+        Wash instructions: Machine wash, Do not bleach, Wash dark colors separately</span>
+</div>
+
+
+</section>
+<section id="product1" class="section-p1">
+    <h2>Featured Products</h2>
+    <p>Brand New Collection!!</p>
+    <div class="pro-container">
+      <div class="pro">
+        <img src="jeans1.jpg">
+        <div class="des">
+          <span> Adidas</span>
+          <h5>Women Jeans</h5>
+          
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+       
+         <h4>$95</h4>
+      </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+    </div>
+  
+    <div class="pro">
+      <img src="jeans3.jpg">
+      <div class="des">
+        <span>Louis Vuitton</span>
+        <h5>Men Jeans</h5>
+        
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+     
+       <h4>$99</h4>
+    </div>
+      <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+  </div>
+  
+  <div class="pro">
+    <img src="jeans2.jpg">
+    <div class="des">
+      <span> Tommy Hilfiger</span>
+      <h5>Jeans</h5>
+      
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+   
+     <h4>$115</h4>
+  </div>
+    <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+  </div>
+  
+  <div class="pro">
+    <img src="jeans4.jpg">
+    <div class="des">
+      <span>Levi Strauss & Co.</span>
+      <h5>Jeans</h5>
+      
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-st ar"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+   
+     <h4>$100</h4>
+  </div>
+    <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+  </div>
+  <!--Women collection-->
+
+    <a href="#"><i class="fal fa-shopping-cart cart"></i> </a>
+  </div>
+  </section>
+  <script>
+    var MainImg=document.getElementById("MainImg");
+    var smallImg=document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick=function(){
+        MainImg.src=smallImg[0].src;
+    }
+    smallImg[1].onclick=function(){
+        MainImg.src=smallImg[1].src;
+    }
+    smallImg[2].onclick=function(){
+        MainImg.src=smallImg[2].src;
+    }
+    smallImg[3].onclick=function(){
+        MainImg.src=smallImg[3].src;
+    }
+  </script>
+
+<footer class="section-p1">
+<div class="col">
+  <img src="logo2.jpg" width="80" height:"50" class="logo">
+  <h4>Contact</h4>
+  <p><strong>Adress:</strong> ABC</p>
+  <p><strong>Hours:</storng>10:00am-10:00pm</p>
+  <p><strong>Phone num:</strong>9010852439</p>
+  
+  <div class="follow">
+    <h4>Follow us</h4>
+    <div class="icon">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-pinterest-p"></i>
+      <i class="fab fa-youtube"></i>
+
+    </div>
+  </div>
+<br><br>
+<div class="copyright">
+  <p>Terms And Conditions Apply</p>
+  <p><strong>SHOPEASE</strong></p>
+  <P>Every product delivered to you!!</P>
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
